@@ -4,10 +4,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
   <title>CRUD</title>
 </head>
 
 <body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-3">
+        <h1>Ingrese Datos</h1>
+        <form action="">
+          <input type="text" class="form-control mb-3" name="codigo_id" placeholder="Codigo ID">
+          <input type="text" class="form-control mb-3" name="fecha_orden" placeholder="Fecha de orden">
+          <input type="text" class="form-control mb-3" name="id_cte" placeholder="ID de cliente">
+          <input type="text" class="form-control mb-3" name="id_pdto" placeholder="ID de producto">
+          <input type="text" class="form-control mb-3" name="cantidad" placeholder="Cantidad">
+          <input type="text" class="form-control mb-3" name="creado" placeholder="Creación">
+
+          <!-- <input type="submit" class="btn btn-primary"> -->
+        </form>
+      </div>
+
+      <div class="col-md-8">
+        <table class="table">
+          <thead class="table-success table-striped">
+            <tr>
+              <th>Código</th>
+              <th>Fecha de orden</th>
+              <th>ID de cliente</th>
+              <th>ID de producto</th>
+              <th>Cantidad</th>
+              <th>Creación</th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+
+    </div>
+  </div>
 
 </body>
 
